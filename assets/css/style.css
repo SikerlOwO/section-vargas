@@ -4,53 +4,20 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: #141414;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+.navbar {
+    background-color: rgba(24, 23, 23, 0.65);
+}
+
+.dropdown-item {
+    color: #6f7972;
+}
+
+.nav-link{
+    color: #6f7972;
 }
 
 .logo img {
     width: 60px;
-
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropbtn {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: #000;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
 }
 
 section {
@@ -59,28 +26,109 @@ section {
     flex-direction: column;
 }
 
-#section1 {
-    color: red;
+#seccion2 {
     background-color: dimgray;
     justify-content: center;
     align-items: center;
-}
-#imagen-centrada{
-    width: 30%;
-    height: auto;
-    border: 5px black;
+    text-align: center;
 }
 
-#section2 {
-    color: red;
+#seccion2 h1 {
+    font-size: 30px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+#seccion2 p {
+        font-size: 18px;
+        color: #ffffff;
+        margin-top: 10px;
+        text-align: center;
+    }
+#imagen-centrada1 {
+    display: block;
+    width: 35%;
+    margin: auto;
+
+}
+
+#seccion3 {
     background-color: grey;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
-#section3 {
-    color: red;
+#seccion3 h1 {
+    font-size: 30px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+#seccion3 p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#imagen-centrada2 {
+    display: block;
+    width: 35%;
+    margin: auto;
+
+}
+
+#seccion4 {
     background-color: dimgray;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+#seccion4 h1 {
+    font-size: 30px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+#seccion4 p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#imagen-centrada3 {
+    display: block;
+    width: 35%;
+    margin: auto;
+
+}
+
+#seccion5 {
+    background-color: dimgray;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#seccion6 {
+    background-color: dimgray;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.carousel-container {
+    background-color: #de2323; /* Color de fondo del carrusel */
+    max-width: 700px; /* Ancho máximo del carrusel */
+    margin: auto; /* Centra el carrusel horizontalmente */
+    padding: 20px; /* Añade un poco de espacio alrededor del carrusel */
+}
+
+html {
+    scroll-behavior: smooth;
 }
