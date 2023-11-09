@@ -5,45 +5,93 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <title>section-vargas</title>
+
+    <title>animales</title>
 
     <link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
 
-   <header>
-       <nav class="navbar navbar-expand-lg fixed-top">
-           <div class="container-fluid">
+            <a href="index.html">
+                <img src="assets/img/logo-site.png" alt="logo">
+            </a>
 
-                   <a href="index.html">
-                       <img src="assets/img/logo-site.png" alt="logo">
-                   </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                       <span class="navbar-toggler-icon"></span>
-                   </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="crias.html">Crias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="habitats.html">Habitats</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registrate.html">Registrate</a>
+                    </li>
+                    <li class="nav-item dropdown"  data-bs-theme="dark">
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Secciones
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#seccion1">Sección 1</a></li>
+                            <li><a class="dropdown-item" href="#seccion2">Sección 2</a></li>
+                            <li><a class="dropdown-item" href="#seccion3">Sección 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                           <li class="nav-item">
-                               <a class="nav-link" href="animales.html">Animales</a>
-                           </li>
-                           <li class="nav-item">
-                               <a class="nav-link" href="sobrenosotros.html">Sobre Nosotros</a>
-                           </li>
-                           <li class="nav-item">
-                               <a class="nav-link" href="contacto.html">Contacto</a>
-                           </li>
-                       </ul>
-                   </div>
-               </div>
-       </nav>
-   </header>
+<section id="seccion1">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+            <h1>Mapache</h1>
+            <img src="assets/img/descarga.jfif" alt="imagen" id="imagen-centrada1">
+            <p>El Mapache es un mamífero de la familia de los Procyonidae y original de América (su distribución va desde Canadá a Panamá). Tiene un tamaño mediano y puede llegar a medir entre 40 cm y 55 cm de alto. Es un poco mayor y más grueso que un gato, de pelo medianamente largo y de color gris plateado (más oscuro en el centro del lomo), el pelo de las extremidades casi blanco, cola larga y anillada (gris plateado con blanco o casi blanco) y una característica mancha de pelo negro que va desde cada mejilla a cada ojo, lo que lo hace muy reconocible</p>
+        </div>
+        </div>
+    </div>
+</section>
 
+<section id="seccion2">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+            <h1>Perro de pradera</h1>
+            <img src="assets/img/perritopradera.jpg" alt="imagen" id="imagen-centrada2">
+            <p>El perrito de la pradera (Cynomys) es una especie de roedor esciuromorfo. El cuerpo tosco, las cortas piernas y el rabo le proporcionan al perrito de las praderas una apariencia lejana a la de las marmotas. Tienen una circunferencia craneal de entre 30 y 35 cm y un peso de entre 800 y 1400 g. Los machos son en promedio algo mayores y un 10 % más pesados que las hembras.</p>
+        </div>
+        </div>
+    </div>
+</section>
 
-   <script src="assets/js/bootstrap/js/bootstrap.bundle.min.js"></script>
+<section id="seccion3">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+            <h1>Koala</h1>
+            <img src="assets/img/koala.jfif" alt="imagen" id="imagen-centrada3">
+            <p>El koala (Phascolarctos cinereus) es una especie de marsupial diprotodonto de la familia Phascolarctidae, es el único representante existente de la familia Phascolarctidae y sus parientes vivos más cercanos son los wombats. Es un animal robusto, con una gran cabeza y cola vestigial o inexistente, su longitud corporal es de 60-85 cm con un peso de 4 a 15 kg, lo que lo convierte en uno de los mayores marsupiales arborícolas.</p>
+        </div>
+        </div>
+    </div>
+</section>
+
+<footer class="text-center text-lg-start">
+    <div class="text-center p-3">
+        © 2023 Copyright:
+    </div>
+</footer>
+
+<script src="assets/js/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
